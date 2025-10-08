@@ -1,1 +1,16 @@
-
+shared_focus = {
+	id = SCA_the_second_american_revolution
+	icon = GFX_
+	cost = 5
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus "
+		custom_effect_tooltip = 
+        hidden_effect = {
+			CAL = {
+				country_event = { id = SCAL.1 }
+			}
+		}
+	}
+}
